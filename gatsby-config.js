@@ -46,14 +46,7 @@ module.exports = {
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: 'src/images/logo.svg',
-        icons: [
-          {
-            src: 'src/images/logo.svg',
-            sizes: 'any',
-            type: 'image/svg+xml',
-          },
-        ],
+        icon: 'src/images/favicons/ms-icon-310x310.png',
       },
     },
     `gatsby-plugin-offline`,
